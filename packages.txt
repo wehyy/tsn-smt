@@ -3,7 +3,6 @@ certifi==2019.9.11
 chardet==3.0.4
 comm==0.2.1
 contourpy==1.2.0
-cplex==22.1.1.1
 cycler==0.12.1
 debugpy==1.8.0
 decorator==5.1.1
