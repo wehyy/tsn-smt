@@ -6,7 +6,6 @@ contourpy==1.2.0
 cycler==0.12.1
 debugpy==1.8.0
 decorator==5.1.1
-docplex==2.23.221
 executing==2.0.1
 fonttools==4.47.2
 idna==2.8

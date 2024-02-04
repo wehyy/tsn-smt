@@ -6,6 +6,8 @@ from networkx.algorithms import approximation as approx
 import random
 import time
 from iras_docplex import iras_docplex
+from jsp_fwk import (JSProblem, JSSolution, JSSolver)
+
 # from make_print_to_file import make_print_to_file
 
 ###### A configuration synthesis tool for online routing and scheduling of time-sensitive traffic ######
