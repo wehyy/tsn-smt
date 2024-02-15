@@ -1,0 +1,73 @@
+
+Log started (V22.1.0.0) Tue Feb 13 15:13:12 2024
+
+Version identifier: 22.1.0.0 | 2022-03-09 | 1a383f8ce
+CPXPARAM_TimeLimit                               3600
+Tried aggregator 2 times.
+MIP Presolve eliminated 18 rows and 10 columns.
+MIP Presolve modified 78 coefficients.
+Aggregator did 2 substitutions.
+Reduced MIP has 78 rows, 52 columns, and 210 nonzeros.
+Reduced MIP has 27 binaries, 25 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.22 ticks)
+Found incumbent of value 1112.000000 after 0.00 sec. (0.43 ticks)
+Probing fixed 0 vars, tightened 3 bounds.
+Probing time = 0.00 sec. (0.05 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+Reduced MIP has 78 rows, 52 columns, and 210 nonzeros.
+Reduced MIP has 27 binaries, 25 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.14 ticks)
+Probing time = 0.00 sec. (0.04 ticks)
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 32 threads.
+Root relaxation solution time = 0.00 sec. (0.08 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                         1112.0000      143.0000            87.14%
+      0     0      143.0000    20     1112.0000      143.0000       20   87.14%
+      0     0      143.0000     5     1112.0000      Cuts: 33       53   87.14%
+      0     0      143.0000     7     1112.0000      Fract: 1       59   87.14%
+*     0+    0                          157.0000      143.0000             8.92%
+Detecting symmetries...
+      0     2      143.0000     7      157.0000      154.0000       59    1.91%
+Elapsed time = 0.05 sec. (2.72 ticks, tree = 0.02 MB, solutions = 2)
+
+Implied bound cuts applied:  8
+Flow cuts applied:  1
+Mixed integer rounding cuts applied:  10
+Gomory fractional cuts applied:  1
+
+Root node processing (before b&c):
+  Real time             =    0.03 sec. (2.68 ticks)
+Parallel b&c, 32 threads:
+  Real time             =    0.02 sec. (0.43 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.05 sec. (3.11 ticks)
+
+Solution pool: 2 solutions saved.
+
+MIP - Integer optimal solution:  Objective =  1.5700000000e+02
+Solution time =    0.06 sec.  Iterations = 104  Nodes = 11
+Deterministic time = 3.11 ticks  (53.23 ticks/sec)
+
+MILP problem relaxed to LP with fixed integer variables using
+incumbent solution.
+Version identifier: 22.1.0.0 | 2022-03-09 | 1a383f8ce
+CPXPARAM_TimeLimit                               3600
+Tried aggregator 1 time.
+LP Presolve eliminated 98 rows and 65 columns.
+All rows and columns eliminated.
+Presolve time = 0.00 sec. (0.04 ticks)
+
+Dual simplex - Optimal:  Objective =  1.5700000000e+02
+Solution time =    0.00 sec.  Iterations = 0 (0)
+Deterministic time = 0.07 ticks  (71.53 ticks/sec)
+
+
+Solution written to file '/tmp/bbb4b74bba704b7d92effa511ab8615d-pulp.sol'.
