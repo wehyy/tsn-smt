@@ -16,7 +16,15 @@ set_beta = [0.0, 0.5, 1.0, 2.0]                             # DAG regularity
 
 class Topo():
 
-    def __init__(self, weighted:bool=True, nodenums:int=30):
+    def __init__(self, load_topo_name:str=None, weighted:bool=True, nodenums:int=30):
+        '''describe network topo
+
+        Args:
+            load_topo_name(str): load local topo by the name.
+            weighted(bool): default be True, random generate weighted dag, edges will be zero
+            when set False.
+            nodenums(int): topo node numbers.
+        '''
         self._nodes = []
         self._edges = []
         self._graph = nx.DiGraph()
@@ -25,7 +33,9 @@ class Topo():
         self._position = []
         self._nodenums = nodenums
 
-        if weighted:
+        if load_topo_name:
+            self.loadTopo(load_topo_name)
+        elif weighted:
             self.initRandomWeightedTopo()
         else:
             self.initRandomTopo()
@@ -88,7 +98,7 @@ class Topo():
         topo_details = defaultdict(list)
         topo_details["nodes"] = list(self.graph.nodes)
         topo_details["edges"] = list(self.graph.edges(data=True))
-        topo_details["positon"] = self.position
+        topo_details["position"] = self.position
         topo_details["into_degree"] = self.into_degree
         topo_details["out_degree"] = self.out_degree
 
@@ -96,32 +106,35 @@ class Topo():
             json.dump(topo_details, f, indent=4)
 
 
-    # def loadTopo(self, name:str):
-    #     # benchmark path
-    #     script_path = os.path.abspath(__file__)
-    #     prj_path = os.path.dirname(os.path.dirname(script_path))
-    #     benchmark_path = os.path.join(prj_path, 'benchmark')
+    def loadTopo(self, name:str):
+        # benchmark path
+        script_path = os.path.abspath(__file__)
+        prj_path = os.path.dirname(os.path.dirname(script_path))
+        benchmark_path = os.path.join(prj_path, 'benchmark')
+        topo_path = os.path.join(benchmark_path, f'topos/{name}')
 
-    #     config_path = os.path.join(os.getcwd(), 'utils/topo_models.ini')
-    #     if not os.path.exists(config_path):
-    #         raise FileNotFoundError(f"config file '{config_path}' not exists!")
-        
-    #     topo_config = configparser.ConfigParser()
-    #     topo_config.read(config_path)
-    #     nodes = topo_config.get(name, 'nodes')
-    #     self.nodes = ast.literal_eval(nodes)
-    #     edges = topo_config.get(name, 'edges')
-    #     self.edges = ast.literal_eval(edges)
-
-    #     self.graph = nx.DiGraph()
-    #     # self.graph.add_nodes_from(self.nodes)
-    #     self.graph.add_weighted_edges_from(self.edges)
+        with open(topo_path, 'r') as f:
+            topo_details = json.load(f)
+        self._nodes = [Node(i) for i in topo_details["nodes"]]
+        self._graph = nx.DiGraph()
+        self._graph.add_edges_from(topo_details["edges"])
+        self._into_degree = topo_details["into_degree"]
+        self._out_degree = topo_details["out_degree"]
+        self._position = topo_details["position"]
+        edges = self._graph.edges(data=True)
+        self._edges = [WeightedEdge(idx, Node(edge[0]), Node(edge[1]), edge[2]['weight']) for idx, edge in zip(range(len(edges)), edges)]
 
     
     def get_edge(self, raw_edge):
         for edge in self._edges:
             if edge.pred_node.id == raw_edge[0] and edge.succ_node.id == raw_edge[1]:
                 return edge
+        
+    
+    def get_node(self, node_id):
+        for node in self._nodes:
+            if node.id == node_id:
+                return node
 
     
     def __generate__DAG(self, mode:str='default', 

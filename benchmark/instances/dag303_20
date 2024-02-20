@@ -1,0 +1,2639 @@
+{
+    "flows": [
+        {
+            "flowid": 0,
+            "edges": [
+                [
+                    18,
+                    28,
+                    {
+                        "weight": 48
+                    }
+                ]
+            ]
+        },
+        {
+            "flowid": 1,
+            "edges": [
+                [
+                    8,
+                    14,
+                    {
+                        "weight": 23
+                    }
+                ],
+                [
+                    8,
+                    22,
+                    {
+                        "weight": 37
+                    }
+                ],
+                [
+                    14,
+                    29,
+                    {
+                        "weight": 15
+                    }
+                ],
+                [
+                    22,
+                    29,
+                    {
+                        "weight": 36
+                    }
+                ]
+            ]
+        },
+        {
+            "flowid": 2,
+            "edges": [
+                [
+                    19,
+                    23,
+                    {
+                        "weight": 27
+                    }
+                ],
+                [
+                    7,
+                    19,
+                    {
+                        "weight": 42
+                    }
+                ],
+                [
+                    12,
+                    19,
+                    {
+                        "weight": 27
+                    }
+                ]
+            ]
+        },
+        {
+            "flowid": 3,
+            "edges": [
+                [
+                    16,
+                    26,
+                    {
+                        "weight": 41
+                    }
+                ],
+                [
+                    7,
+                    16,
+                    {
+                        "weight": 28
+                    }
+                ]
+            ]
+        },
+        {
+            "flowid": 4,
+            "edges": [
+                [
+                    16,
+                    26,
+                    {
+                        "weight": 41
+                    }
+                ],
+                [
+                    2,
+                    7,
+                    {
+                        "weight": 17
+                    }
+                ],
+                [
+                    7,
+                    16,
+                    {
+                        "weight": 28
+                    }
+                ]
+            ]
+        },
+        {
+            "flowid": 5,
+            "edges": [
+                [
+                    2,
+                    7,
+                    {
+                        "weight": 17
+                    }
+                ],
+                [
+                    7,
+                    18,
+                    {
+                        "weight": 30
+                    }
+                ],
+                [
+                    7,
+                    16,
+                    {
+                        "weight": 28
+                    }
+                ],
+                [
+                    16,
+                    28,
+                    {
+                        "weight": 48
+                    }
+                ],
+                [
+                    18,
+                    28,
+                    {
+                        "weight": 48
+                    }
+                ]
+            ]
+        },
+        {
+            "flowid": 6,
+            "edges": [
+                [
+                    7,
+                    16,
+                    {
+                        "weight": 28
+                    }
+                ],
+                [
+                    9,
+                    15,
+                    {
+                        "weight": 20
+                    }
+                ],
+                [
+                    15,
+                    24,
+                    {
+                        "weight": 50
+                    }
+                ],
+                [
+                    16,
+                    24,
+                    {
+                        "weight": 48
+                    }
+                ]
+            ]
+        },
+        {
+            "flowid": 7,
+            "edges": [
+                [
+                    1,
+                    7,
+                    {
+                        "weight": 15
+                    }
+                ],
+                [
+                    1,
+                    8,
+                    {
+                        "weight": 49
+                    }
+                ],
+                [
+                    1,
+                    12,
+                    {
+                        "weight": 40
+                    }
+                ],
+                [
+                    7,
+                    18,
+                    {
+                        "weight": 30
+                    }
+                ],
+                [
+                    7,
+                    16,
+                    {
+                        "weight": 28
+                    }
+                ],
+                [
+                    8,
+                    18,
+                    {
+                        "weight": 31
+                    }
+                ],
+                [
+                    8,
+                    14,
+                    {
+                        "weight": 23
+                    }
+                ],
+                [
+                    12,
+                    18,
+                    {
+                        "weight": 22
+                    }
+                ],
+                [
+                    14,
+                    28,
+                    {
+                        "weight": 48
+                    }
+                ],
+                [
+                    16,
+                    28,
+                    {
+                        "weight": 48
+                    }
+                ],
+                [
+                    18,
+                    28,
+                    {
+                        "weight": 48
+                    }
+                ]
+            ]
+        },
+        {
+            "flowid": 8,
+            "edges": [
+                [
+                    1,
+                    7,
+                    {
+                        "weight": 15
+                    }
+                ],
+                [
+                    1,
+                    8,
+                    {
+                        "weight": 49
+                    }
+                ],
+                [
+                    1,
+                    12,
+                    {
+                        "weight": 40
+                    }
+                ],
+                [
+                    7,
+                    18,
+                    {
+                        "weight": 30
+                    }
+                ],
+                [
+                    7,
+                    16,
+                    {
+                        "weight": 28
+                    }
+                ],
+                [
+                    8,
+                    18,
+                    {
+                        "weight": 31
+                    }
+                ],
+                [
+                    8,
+                    14,
+                    {
+                        "weight": 23
+                    }
+                ],
+                [
+                    12,
+                    18,
+                    {
+                        "weight": 22
+                    }
+                ],
+                [
+                    14,
+                    28,
+                    {
+                        "weight": 48
+                    }
+                ],
+                [
+                    16,
+                    28,
+                    {
+                        "weight": 48
+                    }
+                ],
+                [
+                    18,
+                    28,
+                    {
+                        "weight": 48
+                    }
+                ]
+            ]
+        },
+        {
+            "flowid": 9,
+            "edges": [
+                [
+                    9,
+                    15,
+                    {
+                        "weight": 20
+                    }
+                ],
+                [
+                    15,
+                    27,
+                    {
+                        "weight": 41
+                    }
+                ]
+            ]
+        },
+        {
+            "flowid": 10,
+            "edges": [
+                [
+                    1,
+                    7,
+                    {
+                        "weight": 15
+                    }
+                ],
+                [
+                    1,
+                    9,
+                    {
+                        "weight": 29
+                    }
+                ],
+                [
+                    2,
+                    7,
+                    {
+                        "weight": 17
+                    }
+                ],
+                [
+                    7,
+                    16,
+                    {
+                        "weight": 28
+                    }
+                ],
+                [
+                    9,
+                    15,
+                    {
+                        "weight": 20
+                    }
+                ],
+                [
+                    15,
+                    24,
+                    {
+                        "weight": 50
+                    }
+                ],
+                [
+                    16,
+                    24,
+                    {
+                        "weight": 48
+                    }
+                ]
+            ]
+        },
+        {
+            "flowid": 11,
+            "edges": [
+                [
+                    8,
+                    14,
+                    {
+                        "weight": 23
+                    }
+                ],
+                [
+                    8,
+                    22,
+                    {
+                        "weight": 37
+                    }
+                ],
+                [
+                    12,
+                    19,
+                    {
+                        "weight": 27
+                    }
+                ],
+                [
+                    12,
+                    22,
+                    {
+                        "weight": 38
+                    }
+                ],
+                [
+                    12,
+                    17,
+                    {
+                        "weight": 38
+                    }
+                ],
+                [
+                    14,
+                    25,
+                    {
+                        "weight": 50
+                    }
+                ],
+                [
+                    17,
+                    25,
+                    {
+                        "weight": 21
+                    }
+                ],
+                [
+                    19,
+                    25,
+                    {
+                        "weight": 48
+                    }
+                ],
+                [
+                    22,
+                    25,
+                    {
+                        "weight": 50
+                    }
+                ]
+            ]
+        },
+        {
+            "flowid": 12,
+            "edges": [
+                [
+                    2,
+                    7,
+                    {
+                        "weight": 17
+                    }
+                ],
+                [
+                    7,
+                    19,
+                    {
+                        "weight": 42
+                    }
+                ],
+                [
+                    8,
+                    14,
+                    {
+                        "weight": 23
+                    }
+                ],
+                [
+                    8,
+                    22,
+                    {
+                        "weight": 37
+                    }
+                ],
+                [
+                    14,
+                    25,
+                    {
+                        "weight": 50
+                    }
+                ],
+                [
+                    19,
+                    25,
+                    {
+                        "weight": 48
+                    }
+                ],
+                [
+                    22,
+                    25,
+                    {
+                        "weight": 50
+                    }
+                ]
+            ]
+        },
+        {
+            "flowid": 13,
+            "edges": [
+                [
+                    7,
+                    18,
+                    {
+                        "weight": 30
+                    }
+                ],
+                [
+                    7,
+                    16,
+                    {
+                        "weight": 28
+                    }
+                ],
+                [
+                    8,
+                    18,
+                    {
+                        "weight": 31
+                    }
+                ],
+                [
+                    8,
+                    14,
+                    {
+                        "weight": 23
+                    }
+                ],
+                [
+                    12,
+                    18,
+                    {
+                        "weight": 22
+                    }
+                ],
+                [
+                    14,
+                    28,
+                    {
+                        "weight": 48
+                    }
+                ],
+                [
+                    16,
+                    28,
+                    {
+                        "weight": 48
+                    }
+                ],
+                [
+                    18,
+                    28,
+                    {
+                        "weight": 48
+                    }
+                ]
+            ]
+        },
+        {
+            "flowid": 14,
+            "edges": [
+                [
+                    8,
+                    22,
+                    {
+                        "weight": 37
+                    }
+                ],
+                [
+                    12,
+                    22,
+                    {
+                        "weight": 38
+                    }
+                ],
+                [
+                    12,
+                    17,
+                    {
+                        "weight": 38
+                    }
+                ],
+                [
+                    17,
+                    26,
+                    {
+                        "weight": 39
+                    }
+                ],
+                [
+                    22,
+                    26,
+                    {
+                        "weight": 27
+                    }
+                ]
+            ]
+        },
+        {
+            "flowid": 15,
+            "edges": [
+                [
+                    1,
+                    7,
+                    {
+                        "weight": 15
+                    }
+                ],
+                [
+                    1,
+                    9,
+                    {
+                        "weight": 29
+                    }
+                ],
+                [
+                    2,
+                    7,
+                    {
+                        "weight": 17
+                    }
+                ],
+                [
+                    7,
+                    16,
+                    {
+                        "weight": 28
+                    }
+                ],
+                [
+                    9,
+                    15,
+                    {
+                        "weight": 20
+                    }
+                ],
+                [
+                    15,
+                    24,
+                    {
+                        "weight": 50
+                    }
+                ],
+                [
+                    16,
+                    24,
+                    {
+                        "weight": 48
+                    }
+                ]
+            ]
+        },
+        {
+            "flowid": 16,
+            "edges": [
+                [
+                    2,
+                    7,
+                    {
+                        "weight": 17
+                    }
+                ],
+                [
+                    7,
+                    19,
+                    {
+                        "weight": 42
+                    }
+                ],
+                [
+                    12,
+                    19,
+                    {
+                        "weight": 27
+                    }
+                ],
+                [
+                    19,
+                    23,
+                    {
+                        "weight": 27
+                    }
+                ]
+            ]
+        },
+        {
+            "flowid": 17,
+            "edges": [
+                [
+                    1,
+                    7,
+                    {
+                        "weight": 15
+                    }
+                ],
+                [
+                    1,
+                    8,
+                    {
+                        "weight": 49
+                    }
+                ],
+                [
+                    1,
+                    12,
+                    {
+                        "weight": 40
+                    }
+                ],
+                [
+                    7,
+                    16,
+                    {
+                        "weight": 28
+                    }
+                ],
+                [
+                    8,
+                    22,
+                    {
+                        "weight": 37
+                    }
+                ],
+                [
+                    12,
+                    22,
+                    {
+                        "weight": 38
+                    }
+                ],
+                [
+                    12,
+                    17,
+                    {
+                        "weight": 38
+                    }
+                ],
+                [
+                    16,
+                    26,
+                    {
+                        "weight": 41
+                    }
+                ],
+                [
+                    17,
+                    26,
+                    {
+                        "weight": 39
+                    }
+                ],
+                [
+                    22,
+                    26,
+                    {
+                        "weight": 27
+                    }
+                ]
+            ]
+        },
+        {
+            "flowid": 18,
+            "edges": [
+                [
+                    1,
+                    7,
+                    {
+                        "weight": 15
+                    }
+                ],
+                [
+                    1,
+                    8,
+                    {
+                        "weight": 49
+                    }
+                ],
+                [
+                    1,
+                    12,
+                    {
+                        "weight": 40
+                    }
+                ],
+                [
+                    7,
+                    19,
+                    {
+                        "weight": 42
+                    }
+                ],
+                [
+                    8,
+                    14,
+                    {
+                        "weight": 23
+                    }
+                ],
+                [
+                    8,
+                    22,
+                    {
+                        "weight": 37
+                    }
+                ],
+                [
+                    12,
+                    19,
+                    {
+                        "weight": 27
+                    }
+                ],
+                [
+                    12,
+                    22,
+                    {
+                        "weight": 38
+                    }
+                ],
+                [
+                    12,
+                    17,
+                    {
+                        "weight": 38
+                    }
+                ],
+                [
+                    14,
+                    25,
+                    {
+                        "weight": 50
+                    }
+                ],
+                [
+                    17,
+                    25,
+                    {
+                        "weight": 21
+                    }
+                ],
+                [
+                    19,
+                    25,
+                    {
+                        "weight": 48
+                    }
+                ],
+                [
+                    22,
+                    25,
+                    {
+                        "weight": 50
+                    }
+                ]
+            ]
+        },
+        {
+            "flowid": 19,
+            "edges": [
+                [
+                    2,
+                    7,
+                    {
+                        "weight": 17
+                    }
+                ],
+                [
+                    19,
+                    23,
+                    {
+                        "weight": 27
+                    }
+                ],
+                [
+                    7,
+                    19,
+                    {
+                        "weight": 42
+                    }
+                ]
+            ]
+        }
+    ],
+    "ops": [
+        {
+            "opid": 0,
+            "flow": 0,
+            "edge": 15,
+            "duration": 48
+        },
+        {
+            "opid": 1,
+            "flow": 1,
+            "edge": 8,
+            "duration": 23
+        },
+        {
+            "opid": 2,
+            "flow": 1,
+            "edge": 9,
+            "duration": 37
+        },
+        {
+            "opid": 3,
+            "flow": 1,
+            "edge": 23,
+            "duration": 15
+        },
+        {
+            "opid": 4,
+            "flow": 1,
+            "edge": 28,
+            "duration": 36
+        },
+        {
+            "opid": 5,
+            "flow": 2,
+            "edge": 16,
+            "duration": 27
+        },
+        {
+            "opid": 6,
+            "flow": 2,
+            "edge": 5,
+            "duration": 42
+        },
+        {
+            "opid": 7,
+            "flow": 2,
+            "edge": 11,
+            "duration": 27
+        },
+        {
+            "opid": 8,
+            "flow": 3,
+            "edge": 21,
+            "duration": 41
+        },
+        {
+            "opid": 9,
+            "flow": 3,
+            "edge": 6,
+            "duration": 28
+        },
+        {
+            "opid": 10,
+            "flow": 4,
+            "edge": 21,
+            "duration": 41
+        },
+        {
+            "opid": 11,
+            "flow": 4,
+            "edge": 35,
+            "duration": 17
+        },
+        {
+            "opid": 12,
+            "flow": 4,
+            "edge": 6,
+            "duration": 28
+        },
+        {
+            "opid": 13,
+            "flow": 5,
+            "edge": 35,
+            "duration": 17
+        },
+        {
+            "opid": 14,
+            "flow": 5,
+            "edge": 4,
+            "duration": 30
+        },
+        {
+            "opid": 15,
+            "flow": 5,
+            "edge": 6,
+            "duration": 28
+        },
+        {
+            "opid": 16,
+            "flow": 5,
+            "edge": 18,
+            "duration": 48
+        },
+        {
+            "opid": 17,
+            "flow": 5,
+            "edge": 15,
+            "duration": 48
+        },
+        {
+            "opid": 18,
+            "flow": 6,
+            "edge": 6,
+            "duration": 28
+        },
+        {
+            "opid": 19,
+            "flow": 6,
+            "edge": 10,
+            "duration": 20
+        },
+        {
+            "opid": 20,
+            "flow": 6,
+            "edge": 31,
+            "duration": 50
+        },
+        {
+            "opid": 21,
+            "flow": 6,
+            "edge": 19,
+            "duration": 48
+        },
+        {
+            "opid": 22,
+            "flow": 7,
+            "edge": 0,
+            "duration": 15
+        },
+        {
+            "opid": 23,
+            "flow": 7,
+            "edge": 1,
+            "duration": 49
+        },
+        {
+            "opid": 24,
+            "flow": 7,
+            "edge": 3,
+            "duration": 40
+        },
+        {
+            "opid": 25,
+            "flow": 7,
+            "edge": 4,
+            "duration": 30
+        },
+        {
+            "opid": 26,
+            "flow": 7,
+            "edge": 6,
+            "duration": 28
+        },
+        {
+            "opid": 27,
+            "flow": 7,
+            "edge": 7,
+            "duration": 31
+        },
+        {
+            "opid": 28,
+            "flow": 7,
+            "edge": 8,
+            "duration": 23
+        },
+        {
+            "opid": 29,
+            "flow": 7,
+            "edge": 14,
+            "duration": 22
+        },
+        {
+            "opid": 30,
+            "flow": 7,
+            "edge": 24,
+            "duration": 48
+        },
+        {
+            "opid": 31,
+            "flow": 7,
+            "edge": 18,
+            "duration": 48
+        },
+        {
+            "opid": 32,
+            "flow": 7,
+            "edge": 15,
+            "duration": 48
+        },
+        {
+            "opid": 33,
+            "flow": 8,
+            "edge": 0,
+            "duration": 15
+        },
+        {
+            "opid": 34,
+            "flow": 8,
+            "edge": 1,
+            "duration": 49
+        },
+        {
+            "opid": 35,
+            "flow": 8,
+            "edge": 3,
+            "duration": 40
+        },
+        {
+            "opid": 36,
+            "flow": 8,
+            "edge": 4,
+            "duration": 30
+        },
+        {
+            "opid": 37,
+            "flow": 8,
+            "edge": 6,
+            "duration": 28
+        },
+        {
+            "opid": 38,
+            "flow": 8,
+            "edge": 7,
+            "duration": 31
+        },
+        {
+            "opid": 39,
+            "flow": 8,
+            "edge": 8,
+            "duration": 23
+        },
+        {
+            "opid": 40,
+            "flow": 8,
+            "edge": 14,
+            "duration": 22
+        },
+        {
+            "opid": 41,
+            "flow": 8,
+            "edge": 24,
+            "duration": 48
+        },
+        {
+            "opid": 42,
+            "flow": 8,
+            "edge": 18,
+            "duration": 48
+        },
+        {
+            "opid": 43,
+            "flow": 8,
+            "edge": 15,
+            "duration": 48
+        },
+        {
+            "opid": 44,
+            "flow": 9,
+            "edge": 10,
+            "duration": 20
+        },
+        {
+            "opid": 45,
+            "flow": 9,
+            "edge": 30,
+            "duration": 41
+        },
+        {
+            "opid": 46,
+            "flow": 10,
+            "edge": 0,
+            "duration": 15
+        },
+        {
+            "opid": 47,
+            "flow": 10,
+            "edge": 2,
+            "duration": 29
+        },
+        {
+            "opid": 48,
+            "flow": 10,
+            "edge": 35,
+            "duration": 17
+        },
+        {
+            "opid": 49,
+            "flow": 10,
+            "edge": 6,
+            "duration": 28
+        },
+        {
+            "opid": 50,
+            "flow": 10,
+            "edge": 10,
+            "duration": 20
+        },
+        {
+            "opid": 51,
+            "flow": 10,
+            "edge": 31,
+            "duration": 50
+        },
+        {
+            "opid": 52,
+            "flow": 10,
+            "edge": 19,
+            "duration": 48
+        },
+        {
+            "opid": 53,
+            "flow": 11,
+            "edge": 8,
+            "duration": 23
+        },
+        {
+            "opid": 54,
+            "flow": 11,
+            "edge": 9,
+            "duration": 37
+        },
+        {
+            "opid": 55,
+            "flow": 11,
+            "edge": 11,
+            "duration": 27
+        },
+        {
+            "opid": 56,
+            "flow": 11,
+            "edge": 12,
+            "duration": 38
+        },
+        {
+            "opid": 57,
+            "flow": 11,
+            "edge": 13,
+            "duration": 38
+        },
+        {
+            "opid": 58,
+            "flow": 11,
+            "edge": 22,
+            "duration": 50
+        },
+        {
+            "opid": 59,
+            "flow": 11,
+            "edge": 32,
+            "duration": 21
+        },
+        {
+            "opid": 60,
+            "flow": 11,
+            "edge": 17,
+            "duration": 48
+        },
+        {
+            "opid": 61,
+            "flow": 11,
+            "edge": 27,
+            "duration": 50
+        },
+        {
+            "opid": 62,
+            "flow": 12,
+            "edge": 35,
+            "duration": 17
+        },
+        {
+            "opid": 63,
+            "flow": 12,
+            "edge": 5,
+            "duration": 42
+        },
+        {
+            "opid": 64,
+            "flow": 12,
+            "edge": 8,
+            "duration": 23
+        },
+        {
+            "opid": 65,
+            "flow": 12,
+            "edge": 9,
+            "duration": 37
+        },
+        {
+            "opid": 66,
+            "flow": 12,
+            "edge": 22,
+            "duration": 50
+        },
+        {
+            "opid": 67,
+            "flow": 12,
+            "edge": 17,
+            "duration": 48
+        },
+        {
+            "opid": 68,
+            "flow": 12,
+            "edge": 27,
+            "duration": 50
+        },
+        {
+            "opid": 69,
+            "flow": 13,
+            "edge": 4,
+            "duration": 30
+        },
+        {
+            "opid": 70,
+            "flow": 13,
+            "edge": 6,
+            "duration": 28
+        },
+        {
+            "opid": 71,
+            "flow": 13,
+            "edge": 7,
+            "duration": 31
+        },
+        {
+            "opid": 72,
+            "flow": 13,
+            "edge": 8,
+            "duration": 23
+        },
+        {
+            "opid": 73,
+            "flow": 13,
+            "edge": 14,
+            "duration": 22
+        },
+        {
+            "opid": 74,
+            "flow": 13,
+            "edge": 24,
+            "duration": 48
+        },
+        {
+            "opid": 75,
+            "flow": 13,
+            "edge": 18,
+            "duration": 48
+        },
+        {
+            "opid": 76,
+            "flow": 13,
+            "edge": 15,
+            "duration": 48
+        },
+        {
+            "opid": 77,
+            "flow": 14,
+            "edge": 9,
+            "duration": 37
+        },
+        {
+            "opid": 78,
+            "flow": 14,
+            "edge": 12,
+            "duration": 38
+        },
+        {
+            "opid": 79,
+            "flow": 14,
+            "edge": 13,
+            "duration": 38
+        },
+        {
+            "opid": 80,
+            "flow": 14,
+            "edge": 34,
+            "duration": 39
+        },
+        {
+            "opid": 81,
+            "flow": 14,
+            "edge": 26,
+            "duration": 27
+        },
+        {
+            "opid": 82,
+            "flow": 15,
+            "edge": 0,
+            "duration": 15
+        },
+        {
+            "opid": 83,
+            "flow": 15,
+            "edge": 2,
+            "duration": 29
+        },
+        {
+            "opid": 84,
+            "flow": 15,
+            "edge": 35,
+            "duration": 17
+        },
+        {
+            "opid": 85,
+            "flow": 15,
+            "edge": 6,
+            "duration": 28
+        },
+        {
+            "opid": 86,
+            "flow": 15,
+            "edge": 10,
+            "duration": 20
+        },
+        {
+            "opid": 87,
+            "flow": 15,
+            "edge": 31,
+            "duration": 50
+        },
+        {
+            "opid": 88,
+            "flow": 15,
+            "edge": 19,
+            "duration": 48
+        },
+        {
+            "opid": 89,
+            "flow": 16,
+            "edge": 35,
+            "duration": 17
+        },
+        {
+            "opid": 90,
+            "flow": 16,
+            "edge": 5,
+            "duration": 42
+        },
+        {
+            "opid": 91,
+            "flow": 16,
+            "edge": 11,
+            "duration": 27
+        },
+        {
+            "opid": 92,
+            "flow": 16,
+            "edge": 16,
+            "duration": 27
+        },
+        {
+            "opid": 93,
+            "flow": 17,
+            "edge": 0,
+            "duration": 15
+        },
+        {
+            "opid": 94,
+            "flow": 17,
+            "edge": 1,
+            "duration": 49
+        },
+        {
+            "opid": 95,
+            "flow": 17,
+            "edge": 3,
+            "duration": 40
+        },
+        {
+            "opid": 96,
+            "flow": 17,
+            "edge": 6,
+            "duration": 28
+        },
+        {
+            "opid": 97,
+            "flow": 17,
+            "edge": 9,
+            "duration": 37
+        },
+        {
+            "opid": 98,
+            "flow": 17,
+            "edge": 12,
+            "duration": 38
+        },
+        {
+            "opid": 99,
+            "flow": 17,
+            "edge": 13,
+            "duration": 38
+        },
+        {
+            "opid": 100,
+            "flow": 17,
+            "edge": 21,
+            "duration": 41
+        },
+        {
+            "opid": 101,
+            "flow": 17,
+            "edge": 34,
+            "duration": 39
+        },
+        {
+            "opid": 102,
+            "flow": 17,
+            "edge": 26,
+            "duration": 27
+        },
+        {
+            "opid": 103,
+            "flow": 18,
+            "edge": 0,
+            "duration": 15
+        },
+        {
+            "opid": 104,
+            "flow": 18,
+            "edge": 1,
+            "duration": 49
+        },
+        {
+            "opid": 105,
+            "flow": 18,
+            "edge": 3,
+            "duration": 40
+        },
+        {
+            "opid": 106,
+            "flow": 18,
+            "edge": 5,
+            "duration": 42
+        },
+        {
+            "opid": 107,
+            "flow": 18,
+            "edge": 8,
+            "duration": 23
+        },
+        {
+            "opid": 108,
+            "flow": 18,
+            "edge": 9,
+            "duration": 37
+        },
+        {
+            "opid": 109,
+            "flow": 18,
+            "edge": 11,
+            "duration": 27
+        },
+        {
+            "opid": 110,
+            "flow": 18,
+            "edge": 12,
+            "duration": 38
+        },
+        {
+            "opid": 111,
+            "flow": 18,
+            "edge": 13,
+            "duration": 38
+        },
+        {
+            "opid": 112,
+            "flow": 18,
+            "edge": 22,
+            "duration": 50
+        },
+        {
+            "opid": 113,
+            "flow": 18,
+            "edge": 32,
+            "duration": 21
+        },
+        {
+            "opid": 114,
+            "flow": 18,
+            "edge": 17,
+            "duration": 48
+        },
+        {
+            "opid": 115,
+            "flow": 18,
+            "edge": 27,
+            "duration": 50
+        },
+        {
+            "opid": 116,
+            "flow": 19,
+            "edge": 35,
+            "duration": 17
+        },
+        {
+            "opid": 117,
+            "flow": 19,
+            "edge": 16,
+            "duration": 27
+        },
+        {
+            "opid": 118,
+            "flow": 19,
+            "edge": 5,
+            "duration": 42
+        }
+    ],
+    "path_ops": [
+        [
+            {
+                "opid": 0,
+                "flow": 0,
+                "edge": 15,
+                "duration": 48
+            }
+        ],
+        [
+            {
+                "opid": 1,
+                "flow": 1,
+                "edge": 8,
+                "duration": 23
+            },
+            {
+                "opid": 3,
+                "flow": 1,
+                "edge": 23,
+                "duration": 15
+            }
+        ],
+        [
+            {
+                "opid": 2,
+                "flow": 1,
+                "edge": 9,
+                "duration": 37
+            },
+            {
+                "opid": 4,
+                "flow": 1,
+                "edge": 28,
+                "duration": 36
+            }
+        ],
+        [
+            {
+                "opid": 6,
+                "flow": 2,
+                "edge": 5,
+                "duration": 42
+            },
+            {
+                "opid": 5,
+                "flow": 2,
+                "edge": 16,
+                "duration": 27
+            }
+        ],
+        [
+            {
+                "opid": 7,
+                "flow": 2,
+                "edge": 11,
+                "duration": 27
+            },
+            {
+                "opid": 5,
+                "flow": 2,
+                "edge": 16,
+                "duration": 27
+            }
+        ],
+        [
+            {
+                "opid": 9,
+                "flow": 3,
+                "edge": 6,
+                "duration": 28
+            },
+            {
+                "opid": 8,
+                "flow": 3,
+                "edge": 21,
+                "duration": 41
+            }
+        ],
+        [
+            {
+                "opid": 11,
+                "flow": 4,
+                "edge": 35,
+                "duration": 17
+            },
+            {
+                "opid": 12,
+                "flow": 4,
+                "edge": 6,
+                "duration": 28
+            },
+            {
+                "opid": 10,
+                "flow": 4,
+                "edge": 21,
+                "duration": 41
+            }
+        ],
+        [
+            {
+                "opid": 13,
+                "flow": 5,
+                "edge": 35,
+                "duration": 17
+            },
+            {
+                "opid": 14,
+                "flow": 5,
+                "edge": 4,
+                "duration": 30
+            },
+            {
+                "opid": 17,
+                "flow": 5,
+                "edge": 15,
+                "duration": 48
+            }
+        ],
+        [
+            {
+                "opid": 13,
+                "flow": 5,
+                "edge": 35,
+                "duration": 17
+            },
+            {
+                "opid": 15,
+                "flow": 5,
+                "edge": 6,
+                "duration": 28
+            },
+            {
+                "opid": 16,
+                "flow": 5,
+                "edge": 18,
+                "duration": 48
+            }
+        ],
+        [
+            {
+                "opid": 18,
+                "flow": 6,
+                "edge": 6,
+                "duration": 28
+            },
+            {
+                "opid": 21,
+                "flow": 6,
+                "edge": 19,
+                "duration": 48
+            }
+        ],
+        [
+            {
+                "opid": 19,
+                "flow": 6,
+                "edge": 10,
+                "duration": 20
+            },
+            {
+                "opid": 20,
+                "flow": 6,
+                "edge": 31,
+                "duration": 50
+            }
+        ],
+        [
+            {
+                "opid": 22,
+                "flow": 7,
+                "edge": 0,
+                "duration": 15
+            },
+            {
+                "opid": 25,
+                "flow": 7,
+                "edge": 4,
+                "duration": 30
+            },
+            {
+                "opid": 32,
+                "flow": 7,
+                "edge": 15,
+                "duration": 48
+            }
+        ],
+        [
+            {
+                "opid": 22,
+                "flow": 7,
+                "edge": 0,
+                "duration": 15
+            },
+            {
+                "opid": 26,
+                "flow": 7,
+                "edge": 6,
+                "duration": 28
+            },
+            {
+                "opid": 31,
+                "flow": 7,
+                "edge": 18,
+                "duration": 48
+            }
+        ],
+        [
+            {
+                "opid": 23,
+                "flow": 7,
+                "edge": 1,
+                "duration": 49
+            },
+            {
+                "opid": 27,
+                "flow": 7,
+                "edge": 7,
+                "duration": 31
+            },
+            {
+                "opid": 32,
+                "flow": 7,
+                "edge": 15,
+                "duration": 48
+            }
+        ],
+        [
+            {
+                "opid": 23,
+                "flow": 7,
+                "edge": 1,
+                "duration": 49
+            },
+            {
+                "opid": 28,
+                "flow": 7,
+                "edge": 8,
+                "duration": 23
+            },
+            {
+                "opid": 30,
+                "flow": 7,
+                "edge": 24,
+                "duration": 48
+            }
+        ],
+        [
+            {
+                "opid": 24,
+                "flow": 7,
+                "edge": 3,
+                "duration": 40
+            },
+            {
+                "opid": 29,
+                "flow": 7,
+                "edge": 14,
+                "duration": 22
+            },
+            {
+                "opid": 32,
+                "flow": 7,
+                "edge": 15,
+                "duration": 48
+            }
+        ],
+        [
+            {
+                "opid": 33,
+                "flow": 8,
+                "edge": 0,
+                "duration": 15
+            },
+            {
+                "opid": 36,
+                "flow": 8,
+                "edge": 4,
+                "duration": 30
+            },
+            {
+                "opid": 43,
+                "flow": 8,
+                "edge": 15,
+                "duration": 48
+            }
+        ],
+        [
+            {
+                "opid": 33,
+                "flow": 8,
+                "edge": 0,
+                "duration": 15
+            },
+            {
+                "opid": 37,
+                "flow": 8,
+                "edge": 6,
+                "duration": 28
+            },
+            {
+                "opid": 42,
+                "flow": 8,
+                "edge": 18,
+                "duration": 48
+            }
+        ],
+        [
+            {
+                "opid": 34,
+                "flow": 8,
+                "edge": 1,
+                "duration": 49
+            },
+            {
+                "opid": 38,
+                "flow": 8,
+                "edge": 7,
+                "duration": 31
+            },
+            {
+                "opid": 43,
+                "flow": 8,
+                "edge": 15,
+                "duration": 48
+            }
+        ],
+        [
+            {
+                "opid": 34,
+                "flow": 8,
+                "edge": 1,
+                "duration": 49
+            },
+            {
+                "opid": 39,
+                "flow": 8,
+                "edge": 8,
+                "duration": 23
+            },
+            {
+                "opid": 41,
+                "flow": 8,
+                "edge": 24,
+                "duration": 48
+            }
+        ],
+        [
+            {
+                "opid": 35,
+                "flow": 8,
+                "edge": 3,
+                "duration": 40
+            },
+            {
+                "opid": 40,
+                "flow": 8,
+                "edge": 14,
+                "duration": 22
+            },
+            {
+                "opid": 43,
+                "flow": 8,
+                "edge": 15,
+                "duration": 48
+            }
+        ],
+        [
+            {
+                "opid": 44,
+                "flow": 9,
+                "edge": 10,
+                "duration": 20
+            },
+            {
+                "opid": 45,
+                "flow": 9,
+                "edge": 30,
+                "duration": 41
+            }
+        ],
+        [
+            {
+                "opid": 46,
+                "flow": 10,
+                "edge": 0,
+                "duration": 15
+            },
+            {
+                "opid": 49,
+                "flow": 10,
+                "edge": 6,
+                "duration": 28
+            },
+            {
+                "opid": 52,
+                "flow": 10,
+                "edge": 19,
+                "duration": 48
+            }
+        ],
+        [
+            {
+                "opid": 47,
+                "flow": 10,
+                "edge": 2,
+                "duration": 29
+            },
+            {
+                "opid": 50,
+                "flow": 10,
+                "edge": 10,
+                "duration": 20
+            },
+            {
+                "opid": 51,
+                "flow": 10,
+                "edge": 31,
+                "duration": 50
+            }
+        ],
+        [
+            {
+                "opid": 48,
+                "flow": 10,
+                "edge": 35,
+                "duration": 17
+            },
+            {
+                "opid": 49,
+                "flow": 10,
+                "edge": 6,
+                "duration": 28
+            },
+            {
+                "opid": 52,
+                "flow": 10,
+                "edge": 19,
+                "duration": 48
+            }
+        ],
+        [
+            {
+                "opid": 53,
+                "flow": 11,
+                "edge": 8,
+                "duration": 23
+            },
+            {
+                "opid": 58,
+                "flow": 11,
+                "edge": 22,
+                "duration": 50
+            }
+        ],
+        [
+            {
+                "opid": 54,
+                "flow": 11,
+                "edge": 9,
+                "duration": 37
+            },
+            {
+                "opid": 61,
+                "flow": 11,
+                "edge": 27,
+                "duration": 50
+            }
+        ],
+        [
+            {
+                "opid": 55,
+                "flow": 11,
+                "edge": 11,
+                "duration": 27
+            },
+            {
+                "opid": 60,
+                "flow": 11,
+                "edge": 17,
+                "duration": 48
+            }
+        ],
+        [
+            {
+                "opid": 56,
+                "flow": 11,
+                "edge": 12,
+                "duration": 38
+            },
+            {
+                "opid": 61,
+                "flow": 11,
+                "edge": 27,
+                "duration": 50
+            }
+        ],
+        [
+            {
+                "opid": 57,
+                "flow": 11,
+                "edge": 13,
+                "duration": 38
+            },
+            {
+                "opid": 59,
+                "flow": 11,
+                "edge": 32,
+                "duration": 21
+            }
+        ],
+        [
+            {
+                "opid": 62,
+                "flow": 12,
+                "edge": 35,
+                "duration": 17
+            },
+            {
+                "opid": 63,
+                "flow": 12,
+                "edge": 5,
+                "duration": 42
+            },
+            {
+                "opid": 67,
+                "flow": 12,
+                "edge": 17,
+                "duration": 48
+            }
+        ],
+        [
+            {
+                "opid": 64,
+                "flow": 12,
+                "edge": 8,
+                "duration": 23
+            },
+            {
+                "opid": 66,
+                "flow": 12,
+                "edge": 22,
+                "duration": 50
+            }
+        ],
+        [
+            {
+                "opid": 65,
+                "flow": 12,
+                "edge": 9,
+                "duration": 37
+            },
+            {
+                "opid": 68,
+                "flow": 12,
+                "edge": 27,
+                "duration": 50
+            }
+        ],
+        [
+            {
+                "opid": 69,
+                "flow": 13,
+                "edge": 4,
+                "duration": 30
+            },
+            {
+                "opid": 76,
+                "flow": 13,
+                "edge": 15,
+                "duration": 48
+            }
+        ],
+        [
+            {
+                "opid": 70,
+                "flow": 13,
+                "edge": 6,
+                "duration": 28
+            },
+            {
+                "opid": 75,
+                "flow": 13,
+                "edge": 18,
+                "duration": 48
+            }
+        ],
+        [
+            {
+                "opid": 71,
+                "flow": 13,
+                "edge": 7,
+                "duration": 31
+            },
+            {
+                "opid": 76,
+                "flow": 13,
+                "edge": 15,
+                "duration": 48
+            }
+        ],
+        [
+            {
+                "opid": 72,
+                "flow": 13,
+                "edge": 8,
+                "duration": 23
+            },
+            {
+                "opid": 74,
+                "flow": 13,
+                "edge": 24,
+                "duration": 48
+            }
+        ],
+        [
+            {
+                "opid": 73,
+                "flow": 13,
+                "edge": 14,
+                "duration": 22
+            },
+            {
+                "opid": 76,
+                "flow": 13,
+                "edge": 15,
+                "duration": 48
+            }
+        ],
+        [
+            {
+                "opid": 77,
+                "flow": 14,
+                "edge": 9,
+                "duration": 37
+            },
+            {
+                "opid": 81,
+                "flow": 14,
+                "edge": 26,
+                "duration": 27
+            }
+        ],
+        [
+            {
+                "opid": 78,
+                "flow": 14,
+                "edge": 12,
+                "duration": 38
+            },
+            {
+                "opid": 81,
+                "flow": 14,
+                "edge": 26,
+                "duration": 27
+            }
+        ],
+        [
+            {
+                "opid": 79,
+                "flow": 14,
+                "edge": 13,
+                "duration": 38
+            },
+            {
+                "opid": 80,
+                "flow": 14,
+                "edge": 34,
+                "duration": 39
+            }
+        ],
+        [
+            {
+                "opid": 82,
+                "flow": 15,
+                "edge": 0,
+                "duration": 15
+            },
+            {
+                "opid": 85,
+                "flow": 15,
+                "edge": 6,
+                "duration": 28
+            },
+            {
+                "opid": 88,
+                "flow": 15,
+                "edge": 19,
+                "duration": 48
+            }
+        ],
+        [
+            {
+                "opid": 83,
+                "flow": 15,
+                "edge": 2,
+                "duration": 29
+            },
+            {
+                "opid": 86,
+                "flow": 15,
+                "edge": 10,
+                "duration": 20
+            },
+            {
+                "opid": 87,
+                "flow": 15,
+                "edge": 31,
+                "duration": 50
+            }
+        ],
+        [
+            {
+                "opid": 84,
+                "flow": 15,
+                "edge": 35,
+                "duration": 17
+            },
+            {
+                "opid": 85,
+                "flow": 15,
+                "edge": 6,
+                "duration": 28
+            },
+            {
+                "opid": 88,
+                "flow": 15,
+                "edge": 19,
+                "duration": 48
+            }
+        ],
+        [
+            {
+                "opid": 89,
+                "flow": 16,
+                "edge": 35,
+                "duration": 17
+            },
+            {
+                "opid": 90,
+                "flow": 16,
+                "edge": 5,
+                "duration": 42
+            },
+            {
+                "opid": 92,
+                "flow": 16,
+                "edge": 16,
+                "duration": 27
+            }
+        ],
+        [
+            {
+                "opid": 91,
+                "flow": 16,
+                "edge": 11,
+                "duration": 27
+            },
+            {
+                "opid": 92,
+                "flow": 16,
+                "edge": 16,
+                "duration": 27
+            }
+        ],
+        [
+            {
+                "opid": 93,
+                "flow": 17,
+                "edge": 0,
+                "duration": 15
+            },
+            {
+                "opid": 96,
+                "flow": 17,
+                "edge": 6,
+                "duration": 28
+            },
+            {
+                "opid": 100,
+                "flow": 17,
+                "edge": 21,
+                "duration": 41
+            }
+        ],
+        [
+            {
+                "opid": 94,
+                "flow": 17,
+                "edge": 1,
+                "duration": 49
+            },
+            {
+                "opid": 97,
+                "flow": 17,
+                "edge": 9,
+                "duration": 37
+            },
+            {
+                "opid": 102,
+                "flow": 17,
+                "edge": 26,
+                "duration": 27
+            }
+        ],
+        [
+            {
+                "opid": 95,
+                "flow": 17,
+                "edge": 3,
+                "duration": 40
+            },
+            {
+                "opid": 98,
+                "flow": 17,
+                "edge": 12,
+                "duration": 38
+            },
+            {
+                "opid": 102,
+                "flow": 17,
+                "edge": 26,
+                "duration": 27
+            }
+        ],
+        [
+            {
+                "opid": 95,
+                "flow": 17,
+                "edge": 3,
+                "duration": 40
+            },
+            {
+                "opid": 99,
+                "flow": 17,
+                "edge": 13,
+                "duration": 38
+            },
+            {
+                "opid": 101,
+                "flow": 17,
+                "edge": 34,
+                "duration": 39
+            }
+        ],
+        [
+            {
+                "opid": 103,
+                "flow": 18,
+                "edge": 0,
+                "duration": 15
+            },
+            {
+                "opid": 106,
+                "flow": 18,
+                "edge": 5,
+                "duration": 42
+            },
+            {
+                "opid": 114,
+                "flow": 18,
+                "edge": 17,
+                "duration": 48
+            }
+        ],
+        [
+            {
+                "opid": 104,
+                "flow": 18,
+                "edge": 1,
+                "duration": 49
+            },
+            {
+                "opid": 107,
+                "flow": 18,
+                "edge": 8,
+                "duration": 23
+            },
+            {
+                "opid": 112,
+                "flow": 18,
+                "edge": 22,
+                "duration": 50
+            }
+        ],
+        [
+            {
+                "opid": 104,
+                "flow": 18,
+                "edge": 1,
+                "duration": 49
+            },
+            {
+                "opid": 108,
+                "flow": 18,
+                "edge": 9,
+                "duration": 37
+            },
+            {
+                "opid": 115,
+                "flow": 18,
+                "edge": 27,
+                "duration": 50
+            }
+        ],
+        [
+            {
+                "opid": 105,
+                "flow": 18,
+                "edge": 3,
+                "duration": 40
+            },
+            {
+                "opid": 109,
+                "flow": 18,
+                "edge": 11,
+                "duration": 27
+            },
+            {
+                "opid": 114,
+                "flow": 18,
+                "edge": 17,
+                "duration": 48
+            }
+        ],
+        [
+            {
+                "opid": 105,
+                "flow": 18,
+                "edge": 3,
+                "duration": 40
+            },
+            {
+                "opid": 110,
+                "flow": 18,
+                "edge": 12,
+                "duration": 38
+            },
+            {
+                "opid": 115,
+                "flow": 18,
+                "edge": 27,
+                "duration": 50
+            }
+        ],
+        [
+            {
+                "opid": 105,
+                "flow": 18,
+                "edge": 3,
+                "duration": 40
+            },
+            {
+                "opid": 111,
+                "flow": 18,
+                "edge": 13,
+                "duration": 38
+            },
+            {
+                "opid": 113,
+                "flow": 18,
+                "edge": 32,
+                "duration": 21
+            }
+        ],
+        [
+            {
+                "opid": 116,
+                "flow": 19,
+                "edge": 35,
+                "duration": 17
+            },
+            {
+                "opid": 118,
+                "flow": 19,
+                "edge": 5,
+                "duration": 42
+            },
+            {
+                "opid": 117,
+                "flow": 19,
+                "edge": 16,
+                "duration": 27
+            }
+        ]
+    ]
+}

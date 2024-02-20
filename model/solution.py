@@ -9,7 +9,8 @@ from model.variable import (FlowStep, EdgeStep, TransOperationStep)
 from model.domain import (TransOperation, Cloneable)
 from jsp_fwk.model.problem import JSProblem
 from jsp_fwk.model.solution import JSSolution
-from jsp_fwk.common.graph import DirectedGraph
+from common.graph import DirectedGraph
+
 
 class CFSSolution(Cloneable):
 
@@ -202,7 +203,9 @@ class CFSSolution(Cloneable):
         '''
         # update topological order due to the changed machine chain
         self.__update_graph()
-        if not self.__sorted_ops: return False
+        if not self.__sorted_ops: 
+            print('debug: not sorted_ops')
+            return False
 
         # the position of target process
         pos = 0 if op is None else self.__sorted_ops.index(op)

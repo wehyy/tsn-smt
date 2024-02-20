@@ -2,11 +2,13 @@
 '''
 
 import os, json, random
+import networkx as nx
 from matplotlib import pyplot as plt
 from matplotlib.animation import FuncAnimation
 from model.domain import (Flow, Edge, TransOperation, Cloneable)
-from jsp_fwk import JSProblem
-from jsp_fwk.common.exception import JSPException
+from model.topo import Topo
+from model.flow import CoFlow, get_ops
+from common.exception import JSPException
 from jsp_fwk.model.domain import (Job, Machine, Operation)
 
 class CFSProblem(Cloneable):
@@ -50,7 +52,7 @@ class CFSProblem(Cloneable):
         
         # from benchmark
         elif benchmark:
-            self.__ops = self.__load_from_benchmark(name=benchmark)
+            self.__ops, self.__path_ops = self.__load_from_benchmark(name=benchmark)
             if not name: self.name = benchmark
         
         # from user input file
@@ -170,44 +172,36 @@ class CFSProblem(Cloneable):
             instances = json.load(f)
         for instance in instances:
             if instance['name']==name:
+                toponame = instance['topo']
                 filename = instance['path']
-                if instance['optimum']:
-                    self.__optimum = instance['optimum']
-                elif instance['bounds']:
-                    self.__optimum = (instance['bounds']['lower'], instance['bounds']['upper'])
+                self.__optimum = instance['optimum']
+                # if instance['optimum']:
+                #     self.__optimum = instance['optimum']
+                # elif instance['bounds']:
+                #     self.__optimum = (instance['bounds']['lower'], instance['bounds']['upper'])
                 break
         else:
             raise JSPException(f'Cannot find benchmark name: {name}.')
         
         # load jobs
-        return self.__load_from_file(os.path.join(benchmark_path, filename))
+        return self.__load_from_file(toponame, os.path.join(benchmark_path, filename))
    
 
-    def __load_from_file(self, filename:str) -> list:
+    def __load_from_file(self, toponame:str, filename:str) -> list:
         '''Load jobs from formatted data file.'''
+        # load topo
+        topo = Topo(load_topo_name=toponame)
+
         if not os.path.exists(filename):
             raise JSPException(f'Cannot find data file: {filename}.')
         
-        # load lines and skip comment line starting with #
+        # load instance_detail #
         with open(filename, 'r') as f:
-            lines = [line for line in f.readlines() if not line.startswith('#')]
+            instance_detail = json.load(f)
         
-        # first line: jobs-count machines-count
-        num_jobs, num_machines = map(int, lines[0].strip().split())
-        machines = [Machine(i) for i in range(num_machines)]
-        jobs = [Job(i) for i in range(num_jobs)]
-
-        # one job per line
-        ops = []
-        i = 0
-        for line, job in zip(lines[1:num_jobs+1], jobs):
-            fields = list(map(int, line.strip().split()))
-            for j in range(num_machines):
-                op = Operation(id=i, job=job, machine=machines[fields[2*j]], duration=fields[2*j+1])
-                ops.append(op)
-                i += 1
-        
-        return ops
+        coflows = [CoFlow(f["flowid"], topo, nx.DiGraph(f["edges"])) for f in instance_detail["flows"]]
+        ops, path_ops = get_ops(coflows)
+        return ops, path_ops
 
 
     def __generate_by_random(self, num_jobs:int, num_machines:int) -> list:

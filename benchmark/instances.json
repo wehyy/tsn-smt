@@ -1,0 +1,290 @@
+[
+    {
+        "name": "dag301_10",
+        "topo": "dag301",
+        "flows": 10,
+        "edges": 22,
+        "optimum": null,
+        "path": "instances/dag301_10"
+    },
+    {
+        "name": "dag301_20",
+        "topo": "dag301",
+        "flows": 20,
+        "edges": 16,
+        "optimum": null,
+        "path": "instances/dag301_20"
+    },
+    {
+        "name": "dag301_40",
+        "topo": "dag301",
+        "flows": 40,
+        "edges": 16,
+        "optimum": null,
+        "path": "instances/dag301_40"
+    },
+    {
+        "name": "dag301_60",
+        "topo": "dag301",
+        "flows": 60,
+        "edges": 16,
+        "optimum": null,
+        "path": "instances/dag301_60"
+    },
+    {
+        "name": "dag301_80",
+        "topo": "dag301",
+        "flows": 80,
+        "edges": 16,
+        "optimum": null,
+        "path": "instances/dag301_80"
+    },
+    {
+        "name": "dag301_100",
+        "topo": "dag301",
+        "flows": 100,
+        "edges": 16,
+        "optimum": null,
+        "path": "instances/dag301_100"
+    },
+    {
+        "name": "dag301_120",
+        "topo": "dag301",
+        "flows": 120,
+        "edges": 16,
+        "optimum": null,
+        "path": "instances/dag301_120"
+    },
+    {
+        "name": "dag301_140",
+        "topo": "dag301",
+        "flows": 140,
+        "edges": 16,
+        "optimum": null,
+        "path": "instances/dag301_140"
+    },
+    {
+        "name": "dag301_160",
+        "topo": "dag301",
+        "flows": 160,
+        "edges": 16,
+        "optimum": null,
+        "path": "instances/dag301_160"
+    },
+    {
+        "name": "dag301_320",
+        "topo": "dag301",
+        "flows": 320,
+        "edges": 50,
+        "optimum": null,
+        "path": "instances/dag301_320"
+    },
+    {
+        "name": "dag301_640",
+        "topo": "dag301",
+        "flows": 640,
+        "edges": 50,
+        "optimum": null,
+        "path": "instances/dag301_640"
+    },
+    {
+        "name": "dag301_1280",
+        "topo": "dag301",
+        "flows": 1280,
+        "edges": 50,
+        "optimum": null,
+        "path": "instances/dag301_1280"
+    },
+    {
+        "name": "dag302_10",
+        "topo": "dag302",
+        "flows": 10,
+        "edges": 42,
+        "optimum": null,
+        "path": "instances/dag302_10"
+    },
+    {
+        "name": "dag302_20",
+        "topo": "dag302",
+        "flows": 20,
+        "edges": 31,
+        "optimum": null,
+        "path": "instances/dag302_20"
+    },
+    {
+        "name": "dag302_40",
+        "topo": "dag302",
+        "flows": 40,
+        "edges": 30,
+        "optimum": null,
+        "path": "instances/dag302_40"
+    },
+    {
+        "name": "dag302_60",
+        "topo": "dag302",
+        "flows": 60,
+        "edges": 32,
+        "optimum": null,
+        "path": "instances/dag302_60"
+    },
+    {
+        "name": "dag302_80",
+        "topo": "dag302",
+        "flows": 80,
+        "edges": 26,
+        "optimum": null,
+        "path": "instances/dag302_80"
+    },
+    {
+        "name": "dag302_100",
+        "topo": "dag302",
+        "flows": 100,
+        "edges": 32,
+        "optimum": null,
+        "path": "instances/dag302_100"
+    },
+    {
+        "name": "dag302_120",
+        "topo": "dag302",
+        "flows": 120,
+        "edges": 32,
+        "optimum": null,
+        "path": "instances/dag302_120"
+    },
+    {
+        "name": "dag302_140",
+        "topo": "dag302",
+        "flows": 140,
+        "edges": 32,
+        "optimum": null,
+        "path": "instances/dag302_140"
+    },
+    {
+        "name": "dag302_160",
+        "topo": "dag302",
+        "flows": 160,
+        "edges": 32,
+        "optimum": null,
+        "path": "instances/dag302_160"
+    },
+    {
+        "name": "dag302_320",
+        "topo": "dag302",
+        "flows": 320,
+        "edges": 59,
+        "optimum": null,
+        "path": "instances/dag302_320"
+    },
+    {
+        "name": "dag302_640",
+        "topo": "dag302",
+        "flows": 640,
+        "edges": 59,
+        "optimum": null,
+        "path": "instances/dag302_640"
+    },
+    {
+        "name": "dag302_1280",
+        "topo": "dag302",
+        "flows": 1280,
+        "edges": 59,
+        "optimum": null,
+        "path": "instances/dag302_1280"
+    },
+    {
+        "name": "dag303_10",
+        "topo": "dag303",
+        "flows": 10,
+        "edges": 48,
+        "optimum": null,
+        "path": "instances/dag303_10"
+    },
+    {
+        "name": "dag303_20",
+        "topo": "dag303",
+        "flows": 20,
+        "edges": 32,
+        "optimum": null,
+        "path": "instances/dag303_20"
+    },
+    {
+        "name": "dag303_40",
+        "topo": "dag303",
+        "flows": 40,
+        "edges": 35,
+        "optimum": null,
+        "path": "instances/dag303_40"
+    },
+    {
+        "name": "dag303_60",
+        "topo": "dag303",
+        "flows": 60,
+        "edges": 36,
+        "optimum": null,
+        "path": "instances/dag303_60"
+    },
+    {
+        "name": "dag303_80",
+        "topo": "dag303",
+        "flows": 80,
+        "edges": 35,
+        "optimum": null,
+        "path": "instances/dag303_80"
+    },
+    {
+        "name": "dag303_100",
+        "topo": "dag303",
+        "flows": 100,
+        "edges": 36,
+        "optimum": null,
+        "path": "instances/dag303_100"
+    },
+    {
+        "name": "dag303_120",
+        "topo": "dag303",
+        "flows": 120,
+        "edges": 36,
+        "optimum": null,
+        "path": "instances/dag303_120"
+    },
+    {
+        "name": "dag303_140",
+        "topo": "dag303",
+        "flows": 140,
+        "edges": 36,
+        "optimum": null,
+        "path": "instances/dag303_140"
+    },
+    {
+        "name": "dag303_160",
+        "topo": "dag303",
+        "flows": 160,
+        "edges": 36,
+        "optimum": null,
+        "path": "instances/dag303_160"
+    },
+    {
+        "name": "dag303_320",
+        "topo": "dag303",
+        "flows": 320,
+        "edges": 61,
+        "optimum": null,
+        "path": "instances/dag303_320"
+    },
+    {
+        "name": "dag303_640",
+        "topo": "dag303",
+        "flows": 640,
+        "edges": 61,
+        "optimum": null,
+        "path": "instances/dag303_640"
+    },
+    {
+        "name": "dag303_1280",
+        "topo": "dag303",
+        "flows": 1280,
+        "edges": 61,
+        "optimum": null,
+        "path": "instances/dag303_1280"
+    }
+]

@@ -1,4 +1,4 @@
-Problem: 20 flows, 44 edges
+Problem: 20 flows, 31 edges
 Optimum: None
-Solution: 732.0000000000001
-Terminate successfully in 26.2 sec.
+Solution: 564.0000000000147
+Terminate successfully in 17.6 sec.

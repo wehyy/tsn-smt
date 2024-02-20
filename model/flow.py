@@ -5,7 +5,9 @@ from model.topo import Topo
 from model.domain import (Flow, Node, Edge, TransOperation)
 
 
-def get_ops(flowlist):
+def get_ops(flowlist:list):
+    '''Args: flowlist(list(CoFlow))
+    '''
     operations = []
     flow_ops = []
     count = 0
